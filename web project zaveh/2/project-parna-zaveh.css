@@ -1,0 +1,155 @@
+body{
+    direction: rtl;
+    
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+/********************navbar******************/
+body{
+    position: absolute;
+    display: flex;
+}
+nav{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(203, 203, 203);
+    width: 100%;
+    flex-direction: row;
+    position: fixed;
+    z-index: 10000000;
+}
+
+nav li{
+    float: right;
+    margin-right: 30px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+nav div{
+    margin-top: 10px;
+}
+.links a:hover{
+    background-color: rgb(224, 224, 224);
+}
+nav button:hover{
+    background-color: rgb(206, 206, 249);
+    color: blue;
+    border: 1px solid blue;
+}
+
+/**********************sections and sidebars********************/
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    position: relative;
+    width: 100%;
+}
+.rside{
+    width: 15%;
+    align-items: center;
+    border-left: 2px solid rgb(203, 203, 203);
+    background-color: rgb(243, 243, 243);
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.rside a{
+    display: block;
+    margin-top: 100px;
+    padding: 5px;
+    text-decoration: none;
+}
+.rside a:hover{
+    background-color: rgb(224, 224, 224);
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+.sdv{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    height: 20%;
+    border-bottom: 2px solid rgb(203, 203, 203);
+    position: relative;
+}
+.questions{
+    font-size: larger;
+    display: flex;
+    text-decoration: none;
+}
+.sp{
+    font-size: large;
+}
+.sbtns button{
+    background-color: rgb(206, 206, 249);
+    border-radius: 30px;
+    border-color: rgb(206, 206, 249);
+}
+.msec{
+    margin-top: 40px;
+    width: 65%;
+    margin-right: 250px;
+    align-items: center;
+    position: relative;
+}
+.lside{
+    margin-top: 60px;
+    width: 15%;
+    height: 700px;
+    align-items: center;
+    margin-right: 70px;
+    position: relative;
+}
+.box1{
+    background-color: rgb(252, 252, 180);
+    width: 15%;
+    height: 200px;
+    padding: auto;
+    margin-top: 30px;
+    border: 2px solid rgb(245, 245, 153);
+
+}
+.box1 ul{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.box1 li{
+    text-decoration: none;
+}
+.box2{
+    margin-top: 30px;
+    border: 2px solid rgb(203, 203, 203);
+    width: 15%;
+    height: 350px;
+}
+.box2 p:hover{
+    background-color: rgb(162, 162, 162);
+}
+.box2 p{
+    margin-right: 10px;
+}
+h3{
+    margin-right: 70px;
+}
+
+/******************************footer**************************/
+
+footer{
+    background-color: gray;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+
+
